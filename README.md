@@ -223,3 +223,20 @@ module tb;
 
 ![Screenshot (2578)](https://user-images.githubusercontent.com/120498080/233801036-b54882e6-d105-440f-9965-ee7d8aba1d0e.png)
 
+### Designing IP and Testing
+- Then I created an IP(Named - UART_IP_NEW2) of our design and tested it UART Communication
+
+![image](https://github.com/abhinavprakash199/Protocols-/assets/120498080/507c784b-2eff-43c4-8e74-939ffe620e1a)
+
+- Then using SDK I directly provided TX bit at the assigned memory 
+- I give bit as 155 in hex which is `000101010101` in binary in the 32 bit slave register (slv_reg0), where LSB is for the start bit which is always high to transmit the tx data and next 8 bit after LSB is for tx data which is `10101010` in binary and 170 in decimal.
+- For the output side I define another slave register (slv_reg1) of 32 bit in which I will save the received data, in that I consider 8 bit from LSB as the RX bit, 9th bit as rxdone, 10th bit as txdone.
+- So for proper working to the UART, I need to get RX bit as `1010101010` and rxdone and tx done as high, e.g. - slv_reg1 should have 3AA in hex and `1110101010` in binary.
+- In my IP slv_reg0 can be accessed with address at `XPAR_UART_IP_NEW2_0_S00_AXI_BASEADDR` and slv_reg1 is 4 bit after this address.
+- So I finally verify the UART protocal using using ZYNQ FPGA boart and FT232RL uart to usb ic.
+
+![image](https://github.com/abhinavprakash199/Protocols-/assets/120498080/81b6f53a-feda-4d7b-8c26-1723cbd99067)
+   
+
+
+
