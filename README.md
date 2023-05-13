@@ -5,10 +5,10 @@ This repository contains the whole summary of hands on done by Abhinav Prakash (
 ---
 
 * [UART(Universal asynchronous receiver-transmitter) Protocols](#UART(Universal-asynchronous-receiver-transmitter)-Protocols)
-        + [Verilog Codes](#Verilog-Codes)
-        + [Testbench](#Testbench)
-        + [Simulation Results](#Simulation-Results)
-        + [Designing IP and Testing](#Designing-IP-and-Testing)
+    + [Verilog Codes](#Verilog-Codes)
+    + [Testbench](#Testbench)
+    + [Simulation Results](#Simulation-Results)
+    + [Designing IP and Testing](#Designing-IP-and-Testing)
 
 
 
