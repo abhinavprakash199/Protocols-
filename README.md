@@ -1,11 +1,18 @@
 # Protocols-
 This repository contains the whole summary of hands on done by Abhinav Prakash (IS22MTECH14002) on the following Protocols 
 
+# Table of Content
+---
+    * [UART(Universal asynchronous receiver-transmitter) Protocols](#UART(Universal-asynchronous-receiver-transmitter)-Protocols)
+        + [Verilog Codes](#Verilog-Codes)
+        + [Testbench](#Testbench)
+        + [Simulation Results](#Simulation-Results)
+        + [Designing IP and Testing](#Designing-IP-and-Testing)
 
 
 
 
-## UART(Universal asynchronous receiver-transmitter)  Protocols
+## UART(Universal asynchronous receiver-transmitter) Protocols
 ---
 ### Verilog Codes 
 ```verilog
