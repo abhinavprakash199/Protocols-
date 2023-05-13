@@ -3,7 +3,8 @@ This repository contains the whole summary of hands on done by Abhinav Prakash (
 
 # Table of Content
 ---
-    * [UART(Universal asynchronous receiver-transmitter) Protocols](#UART(Universal-asynchronous-receiver-transmitter)-Protocols)
+
+* [UART(Universal asynchronous receiver-transmitter) Protocols](#UART(Universal-asynchronous-receiver-transmitter)-Protocols)
         + [Verilog Codes](#Verilog-Codes)
         + [Testbench](#Testbench)
         + [Simulation Results](#Simulation-Results)
