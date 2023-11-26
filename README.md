@@ -905,3 +905,5 @@ endmodule
 
 ### Simulation Results
 ---
+![image](https://github.com/abhinavprakash199/Protocols-/assets/120498080/f50da5ec-8727-4521-a7e8-2f54a2c90960)
+
