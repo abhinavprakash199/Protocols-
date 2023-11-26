@@ -10,9 +10,9 @@ This repository contains the whole summary of hands on done by Abhinav Prakash (
     + [Simulation Results](#Simulation-Results)
     + [Designing IP and Testing](#Designing-IP-and-Testing)
  
-* [IIC(Inter-Integrated Circuit) Protocols](#IIC(Inter-Integrated Circuit)-Protocols)
-    + [Verilog Codes of Master] (#Verilog-Codes-of-Master)
-    + [Verilog Codes of Slave] (#Verilog-Codes-of-Slave)
+* [IIC(Inter-Integrated Circuit) Protocols](#IIC(Inter-Integrated-Circuit)-Protocols)
+    + [Verilog Codes of Master](#Verilog-Codes-of-Master)
+    + [Verilog Codes of Slave](#Verilog-Codes-of-Slave)
     + [Testbench](#Testbench)
     + [Simulation Results](#Simulation-Results)
 
